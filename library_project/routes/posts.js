@@ -4,7 +4,7 @@ const Posts = require('../models/posts');
 const router = express.Router();
 
 // save posts
-router.post('/post/save' , (req,res)=>{
+router.post('/book/save' , (req,res)=>{
     let newPost = new Posts(req.body);
     newPost.save((err)=>{
         if(err){
@@ -21,7 +21,7 @@ router.post('/post/save' , (req,res)=>{
 
 // get posts
 
-router.get('/posts', (req,res)=>{
+router.get('/books', (req,res)=>{
     Posts.find().exec((err,posts) =>{
         if(err){
             return res.status(400).json({
@@ -37,7 +37,7 @@ router.get('/posts', (req,res)=>{
 
 //specific get
 
-router.get("/post/:id" , (req,res)=>{
+router.get("/book/:id" , (req,res)=>{
     let postId = req.params.id;
     Posts.findById(postId , (err,post)=>{
         if(err){
@@ -56,7 +56,7 @@ router.get("/post/:id" , (req,res)=>{
 
 //update post
 
-router.put('/post/update/:id' , (req,res)=>{
+router.put('/book/update/:id' , (req,res)=>{
     Posts.findByIdAndUpdate(
         req.params.id,
         {
@@ -75,7 +75,7 @@ router.put('/post/update/:id' , (req,res)=>{
 
 // delete post
 
-router.delete('/post/delete/:id' , (req,res)=>{
+router.delete('/book/delete/:id' , (req,res)=>{
     Posts.findByIdAndRemove(req.params.id).exec((err,deletedPost) => {
         if(err) return res.status(400).json({
             message:"delete unsuccesful" , err
