@@ -4,9 +4,6 @@ function App() {
   return (
     <div className="App">
       <h1 class="heading">Pavi</h1>
-
-      
-
     </div>
   );
 }
