@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
 
+
       <Navbar />
       <div class="image-container">
       <Image />
