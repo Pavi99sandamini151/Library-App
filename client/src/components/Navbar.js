@@ -20,16 +20,16 @@ export default class NavBar extends Component{
                         <a class="nav-link" aria-current="page" href="/">Library Management System</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" aria-current="page" href="/home">Home</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="/">About Us</a>
+                        <a class="nav-link" aria-current="page" href="/about">About Us</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="/">Book List</a>
+                        <a class="nav-link" aria-current="page" href="/booklist">Book List</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="/">Author List</a>
+                        <a class="nav-link" aria-current="page" href="/authorlist">Author List</a>
                     </li>
                     </ul>
                 </div>

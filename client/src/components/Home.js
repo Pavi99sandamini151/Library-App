@@ -1,10 +1,9 @@
 import React , {Component} from "react";
-
+// import Image from './Image';
 
 export default class Home extends Component{
     render(){
       return(
-          
               <div>
                   <h1 class="heading">Home</h1>
                 <p class="paragraph">A library is a collection of materials, books or media that are accessible for use and not just for display purposes. 

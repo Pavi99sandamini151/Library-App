@@ -6,6 +6,7 @@ export default class AboutUs extends Component{
       return(
           <div>
                <h1 class="heading">About Us</h1>
+               <p class="paragraph">loream loream</p>
           </div>
       )
     }
