@@ -30,7 +30,6 @@
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  /* padding: 0 100px; */
 }
 
 .nav-link{
@@ -51,4 +50,9 @@
 .footer-class{
   display: block;
   align-items: center;
+}
+
+/* styles for about us  */
+.about-us-container{
+  display: flex;
 }

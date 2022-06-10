@@ -18,9 +18,9 @@ function App() {
               
               <Switch>
                 <Route exact path="/">  <Image/></Route> 
-                <Route exact path="/home">  <Home/></Route>
+                <Route exact path="/home"><Home/></Route>
                 <Route exact path="/about" ><AboutUs/></Route>
-                <Route exact path="/booklist">  <Booklist/></Route>
+                <Route exact path="/booklist"><Booklist/></Route>
                 <Route exact path="/authorlist" ><Authorlist/></Route>
                 {/* <Route exact path="/edit/:id" component={EditPost} />
                 <Route exact path="/post/:id" component={PostDetails} /> */}
