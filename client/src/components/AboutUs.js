@@ -6,10 +6,10 @@ export default class AboutUs extends Component{
     render(){
       return(
           <div class="about-us-container">
-            <div className="image-box">
+            <div className="left">
               <img className="photo" src={photo}></img>
             </div>
-            <div className="details-container">
+            <div className="right">
                <h1 class="heading">About Us</h1>
                <p class="paragraph">loream loream</p>
             </div>
