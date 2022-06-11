@@ -6,7 +6,10 @@ export default class Footer extends Component{
           <div class="footer-class">
             <div className="social-media-icons">
             <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-whatsapp"></a>
+            
             </div>
         <footer class="footer"> &copy; | Created By Pavithra Sandamini</footer>
           </div>
