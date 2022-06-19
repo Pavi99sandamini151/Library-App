@@ -1,5 +1,6 @@
 import React , {Component} from "react";
 import photo from './images/about us1.jpg';
+import pic from './images/book.png';
 import Footer from "./Footer";
 
 
@@ -13,11 +14,37 @@ export default class AboutUs extends Component{
             </div>
             <div className="right">
                <h1 class="heading">About Us</h1>
-               <p class="paragraph">loream loream</p>
+               
                 <div className="card-container">
                   <div class="card">
                       <div class="card-body">
-                      <a href="#">This is some text within a card body.</a>
+                      <a class="card-link" href="#">About the Library</a>
+                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                      
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-body">
+                      <a class="card-link" href="#">News</a>
+                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-body">
+                      <a class="card-link" href="#">Reports</a>
+                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-body">
+                      <a class="card-link" href="#">Give to the library</a>
+                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-body">
+                      <a class="card-link" href="#">Terms of use</a>
+                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
                     </div>
                   </div>
                </div>

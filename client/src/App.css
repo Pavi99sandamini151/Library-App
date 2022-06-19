@@ -108,9 +108,32 @@
   align-items: center;
 }
 
-.card-container .card a:hover{
-  box-shadow: #171c24;
+.card-container .card{
+  /* padding: 3px; */
+  /* margin: 6px; */
+  
 }
+.card-container .card-body{
+  display: flex;
+}
+.card-container .card-body .image-card{
+  position: absolute;
+  right: 0px;
+}
+.card-link{
+  text-decoration: none;
+  color: #171c24;
+}
+.card-link:hover{
+  font-size: 20px;
+  color: #292a2c;
+  transition: 10ms;
+}
+.book-pic{
+  width: 100px;
+  height: 50px;
+}
+
 
 
 
