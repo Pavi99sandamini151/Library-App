@@ -6,7 +6,8 @@ import Home from './components/Home';
 import AboutUs from './components/AboutUs';
 import Booklist from './components/Authorlist';
 import Authorlist from './components/Booklist';
-
+import Createbook from './components/Createbook';
+import Createauthor from './components/CreateAuthor';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
                 <Route exact path="/about" ><AboutUs/></Route>
                 <Route exact path="/booklist"><Booklist/></Route>
                 <Route exact path="/authorlist" ><Authorlist/></Route>
+                <Route exact path="/bookadd"><Createbook/></Route>
+                <Route exact path="/authoradd"><Createauthor/></Route>
                 {/* <Route exact path="/edit/:id" component={EditPost} />
                 <Route exact path="/post/:id" component={PostDetails} /> */}
               </Switch>
