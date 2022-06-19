@@ -1,10 +1,12 @@
 import React , {Component} from "react";
+import Footer from "./Footer";
 // import Image from './Image';
 
 export default class Home extends Component{
     render(){
       return(
               <div>
+                <div>
                   <h1 class="heading">Home</h1>
                 <p class="paragraph">A library is a collection of materials, books or media that are accessible for use and not just for display purposes. 
                     A library provides physical (hard copies) or digital access (soft copies) materials, and may be a physical location or a virtual space, or both.
@@ -17,6 +19,8 @@ export default class Home extends Component{
                 may also be community hubs, where programs are delivered and people engage in lifelong learning. Modern libraries extend their services beyond the physical walls of a building by providing material accessible by electronic means, including from home via the Internet.
                 The services the library offers are variously described as library services, information services, or the combination "library and information services", although different institutions and sources define such terminology differently.
                 </p>
+                </div>
+                <Footer></Footer>
               </div>
       )
     }

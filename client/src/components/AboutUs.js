@@ -1,6 +1,6 @@
 import React , {Component} from "react";
 import photo from './images/about us1.jpg';
-import pic from './images/book.png';
+import pic from './images/boos.png';
 import Footer from "./Footer";
 
 
