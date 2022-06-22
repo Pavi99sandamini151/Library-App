@@ -8,12 +8,10 @@ export default class Booklist extends Component{
     render(){
       return(
           <div>
-            <div>
+            <div class="book-container">
             <h1 class="heading">Book List</h1>
-            
+              
             </div>
-           
-
            
             <Footer></Footer>
           </div>

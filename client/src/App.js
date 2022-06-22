@@ -21,8 +21,8 @@ function App() {
                 <Route exact path="/">  <Image/></Route> 
                 <Route exact path="/home"><Home/></Route>
                 <Route exact path="/about" ><AboutUs/></Route>
-                <Route exact path="/booklist"><Booklist/></Route>
-                <Route exact path="/authorlist" ><Authorlist/></Route>
+                <Route exact path="/booklist"><Authorlist/></Route>
+                <Route exact path="/authorlist" ><Booklist/></Route>
                 <Route exact path="/bookadd"><Createbook/></Route>
                 <Route exact path="/authoradd"><Createauthor/></Route>
                 {/* <Route exact path="/edit/:id" component={EditPost} />

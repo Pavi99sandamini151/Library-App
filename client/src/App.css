@@ -123,11 +123,11 @@
   position: absolute;
   right: 0px;
 }
-.card-link{
+.fa-solid fa-books{
   text-decoration: none;
   color: #171c24;
 }
-.card-link:hover{
+.fa-solid fa-books:hover{
   font-size: 20px;
   color: #292a2c;
   transition: 10ms;

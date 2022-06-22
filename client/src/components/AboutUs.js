@@ -18,33 +18,33 @@ export default class AboutUs extends Component{
                 <div className="card-container">
                   <div class="card">
                       <div class="card-body">
-                      <a class="card-link" href="#">About the Library</a>
-                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                      <a  href="#" class="fa-solid fa-books">About the Library </a>
+                      <div className="image-card"></div>
+                      <i class="fa-solid fa-books"></i>
+                    </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-body">
+                      <a class="fa-solid fa-books" href="#">News</a>
                       
                     </div>
                   </div>
                   <div class="card">
                       <div class="card-body">
-                      <a class="card-link" href="#">News</a>
-                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                      <a class="fa-solid fa-books" href="#">Reports</a>
+                      
                     </div>
                   </div>
                   <div class="card">
                       <div class="card-body">
-                      <a class="card-link" href="#">Reports</a>
-                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                      <a class="fa-solid fa-books" href="#">Give to the library</a>
+                      
                     </div>
                   </div>
                   <div class="card">
                       <div class="card-body">
-                      <a class="card-link" href="#">Give to the library</a>
-                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
-                    </div>
-                  </div>
-                  <div class="card">
-                      <div class="card-body">
-                      <a class="card-link" href="#">Terms of use</a>
-                      <div className="image-card"><img className="book-pic" src={pic}></img></div>
+                      <a class="fa-solid fa-books" href="#">Terms of use</a>
+                      
                     </div>
                   </div>
                </div>
