@@ -21,7 +21,7 @@ router.post('/book/add' , (req,res)=>{
 
 // get posts
 
-router.get('/books', (req,res)=>{
+router.get('/booklist', (req,res)=>{
     Posts.find().exec((err,posts) =>{
         if(err){
             return res.status(400).json({
