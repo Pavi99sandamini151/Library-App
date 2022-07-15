@@ -50,13 +50,12 @@ retrieveBooks(){
               </tr>
             </thead>
             <tbody>
-             <td>pavi</td>
-             <td>prasa</td>
+           
             </tbody>
           </table>
           
             </div>
-           
+            <button className="btn btn-success"><a href="/add" style={{textDecoration:'none' , color:'white' }}>Insert Book</a></button>
             <Footer></Footer>
           </div>
               
