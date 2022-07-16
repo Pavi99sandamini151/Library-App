@@ -28,7 +28,7 @@ export default class Authorlist extends Component{
           </table>
           
             </div>
-            <button className="btn btn-success"><a href="/book/add" style={{textDecoration:'none' , color:'white' }}>Insert Author</a></button>
+            <button className="btn btn-success"><a href="/author/add" style={{textDecoration:'none' , color:'white' }}>Insert Author</a></button>
             <Footer></Footer>
           </div>
            

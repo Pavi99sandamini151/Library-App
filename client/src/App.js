@@ -23,8 +23,8 @@ function App() {
                 <Route exact path="/about" ><AboutUs/></Route>
                 <Route exact path="/booklist"><Authorlist/></Route>
                 <Route exact path="/authorlist" ><Booklist/></Route>
-                <Route exact path="/bookadd"><Createbook/></Route>
-                <Route exact path="/authoradd"><Createauthor/></Route>
+                <Route exact path="/book/add"><Createbook/></Route>
+                <Route exact path="/author/add"><Createauthor/></Route>
                 {/* <Route exact path="/edit/:id" component={EditPost} />
                 <Route exact path="/post/:id" component={PostDetails} /> */}
               </Switch>

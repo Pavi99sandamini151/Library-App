@@ -24,7 +24,7 @@ export default class Createbook extends Component{
                     <label for="description">Description</label>
                     <input type="text" class="form-control" id="content" placeholder="Enter description"></input>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-success">Submit</button>
                 </form>
             </div>
             
