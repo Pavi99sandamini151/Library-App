@@ -50,12 +50,21 @@ retrieveBooks(){
               </tr>
             </thead>
             <tbody>
+            {/* {this.state.posts.map((posts,index) =>
+              <tr key={index}>
+              <th scope="row">{index+1}</th>
+              <td>
+                  
            
+             
+              </td>
+              </tr>
+            )} */}
             </tbody>
           </table>
           
             </div>
-            <button className="btn btn-success"><a href="/add" style={{textDecoration:'none' , color:'white' }}>Insert Book</a></button>
+            <button className="btn btn-success"><a href="/book/add" style={{textDecoration:'none' , color:'white' }}>Insert Book</a></button>
             <Footer></Footer>
           </div>
               
