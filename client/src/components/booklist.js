@@ -50,16 +50,6 @@ retrieveBooks(){
               </tr>
             </thead>
             <tbody>
-            {/* {this.state.posts.map((posts,index) =>
-              <tr key={index}>
-              <th scope="row">{index+1}</th>
-              <td>
-                  
-           
-             
-              </td>
-              </tr>
-            )} */}
             </tbody>
           </table>
           
